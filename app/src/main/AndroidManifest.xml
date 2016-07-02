@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kunal.third.com.app2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeLight"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name=".launcher_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".input_edit_profile_activity">
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".create_new_post_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".display_textbook_details_activity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

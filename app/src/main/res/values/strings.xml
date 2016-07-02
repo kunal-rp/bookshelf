@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookSHELF</string>
+    <string name="action_settings">Settings</string>
+    <string name="tempTopFragmentText">Thanks for downloading _________</string>
+    <string name="tempBottomFragmentText">This is an app</string>
+    <string name="buttonOneText">Home</string>
+    <string name="buttonTwoText">Search</string>
+    <string name="buttonThreeText">Profile</string>
+    <string name="action_profile">Profile</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile_button">Edit Profile</string>
+    <string name="title_activity_input_edit_profile">input_edit_profile</string>
+    <string name="editProfile_save">Save</string>
+    <string name="display_import_profile_image">Import Profile Image</string>
+    <string name="display_import_textbook_image">Import Textbook Image</string>
+    <string name="profile_email_label">Email:</string>
+    <string name="profile_college_label">College:</string>
+    <string name="title_activity_create_new_post_activity">create_new_post_activity</string>
+    <string name="title_activity_display_textbook_details_activity">
+        display_textbook_details_activity
+    </string>
+</resources>

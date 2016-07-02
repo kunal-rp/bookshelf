@@ -1,0 +1,70 @@
+<resources>>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:background">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:title">@string/app_name</item>
+
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:background">@color/colorGrey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:title">@string/app_name</item>
+
+    </style>
+
+
+    <style name="editProfileEdittext" parent="Base.Widget.AppCompat.EditText">
+
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
+
+    <style name="interestedListTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">.45</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="profileTitleTextView" parent="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="profileSubTitleTextView" parent="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@color/colorTransparent</item>
+
+    </style>
+
+
+    <style name="ButtonStyle_default1" parent="Base.Widget.AppCompat.Button.Borderless">
+
+        <item name="android:padding">1dp</item>
+        <item name="android:adjustViewBounds">true</item>
+
+    </style>
+
+
+    <style name="toolbarTheme" parent="Base.Widget.AppCompat.Light.ActionBar">
+
+    </style>
+
+    <style name="AppThemeLight.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeLight.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

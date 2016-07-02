@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar"
+        style="@style/toolbarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"/>
+
+
+    <FrameLayout
+        android:id="@+id/topFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8" />
+
+    //Want to put Floating Button HERE
+
+
+    <FrameLayout
+        android:id="@+id/bottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:elevation="5dp" />
+
+</LinearLayout>
